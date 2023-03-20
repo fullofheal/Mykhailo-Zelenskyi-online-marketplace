@@ -1,0 +1,49 @@
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&family=Roboto:wght@400;500&family=Roboto+Condensed:wght@700&family=Source+Sans+Pro:wght@400&display=swap');
+@import './button';
+
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    position: relative;
+}
+
+ul,
+li,
+dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+.app {
+    max-width: 1238px;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    position: relative;
+}
+

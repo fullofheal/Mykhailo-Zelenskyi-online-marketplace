@@ -1,0 +1,9 @@
+.details {
+  margin-top: 160px;
+  display: grid;
+  grid-template-columns: 740px 292px;
+  column-gap: 100px;
+  li {
+    list-style-type: disc;
+  }
+}
